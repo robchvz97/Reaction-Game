@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Reaction Game</title>
+</head>
+<body>
+    <header>
+        <div id="container">
+            <h1>Test your reactions!</h1>
+            <h3>You got 10 seconds to click as fast as you can the figures below.</h3>
+            <p>Reaction time: <span id="seconds"></span></p>
+        </div>
+    </header>
+    <main>
+        
+        <div id="figure" onclick="DrawFigures(); play();">
+
+        </div>
+
+
+        <audio src="audio/popping.mp3" id="audio"></audio>
+
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>
